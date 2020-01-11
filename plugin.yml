@@ -18,10 +18,10 @@ permissions:
     description: "change a player's nickname"
     children:
      pmessentials.nick.color:
-      default: true
+      default: op
       description: "make your nickname colored"
      pmessentials.nick.custom:
-      default: true
+      default: op
       description: "set a custom nickname"
      pmessentials.nick.self:
       default: op
@@ -91,10 +91,10 @@ permissions:
       default: op
       description: "change someone's size"
    pmessentials.realname:
-    default: true
+    default: op
     description: "view someone's real name"
    pmessentials.usage:
-    default: true
+    default: op
     description: "view the usage of a command"
    pmessentials.powertool:
     default: op
@@ -107,7 +107,7 @@ permissions:
       default: op
       description: "allows the usage of powertools"
    pmessentials.ping:
-    default: true
+    default: op
     description: "Pong!"
    pmessentials.fly:
     default: op
@@ -150,7 +150,7 @@ permissions:
       default: op
       description: "shows the world you're in"
      pmessentials.xyz.self:
-      default: true
+      default: op
       description: "shows your coordinates"
      pmessentials.xyz.other:
       default: op
@@ -191,13 +191,13 @@ permissions:
     default: op
     description: "go through a block"
    pmessentials.tpa:
-    default: true
+    default: op
     description: "allows /tpa"
    pmessentials.tpahere:
-    default: true
+    default: op
     description: "allows /tpahere"
    pmessentials.tpaccept:
-    default: true
+    default: op
     description: "accept/deny teleport requests"
    pmessentials.burn:
     default: op
@@ -221,7 +221,7 @@ permissions:
     description: "clear a player's inventory"
     children:
      pmessentials.clearinventory.self:
-      default: true
+      default: op
       description: "clear your inventory"
      pmessentials.clearinventory.other:
       default: op
